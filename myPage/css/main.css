@@ -1,0 +1,32 @@
+
+.first-text-container{
+    margin-top: 140px;
+}
+.navbar-nav .nav-link {
+    color: rgb(52, 50, 50); /* Set text color to white */
+    transition: color 0.3s; /* Add transition for smooth hover effect */
+  }
+  .navbar-nav .nav-link:hover {
+    color: #FFBD59; /* Change text color on hover */
+  }
+  .custom-progress-bar {
+    color: #FFBD59; /* Set text color to black */
+  }
+.progress{
+    margin-top: 25px;
+}
+  
+h5{
+    margin-top: 5px;
+}
+/* CSS for navbar, sections, footer, etc. */
+
+/* Add class for smooth scroll animation */
+.smooth-scroll {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Add class for active link */
+.nav-item.active .nav-link {
+  color: #FFBD59 !important;
+}
